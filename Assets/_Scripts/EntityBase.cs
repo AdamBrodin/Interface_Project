@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class EnemyBase : MonoBehaviour
+public abstract class EntityBase : MonoBehaviour
 {
+    private void Awake()
+    {
 
+    }
 }
